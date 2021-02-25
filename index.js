@@ -1,7 +1,10 @@
 'use strict';
 
-const server = require('./src/server-phase-1.js');
+
+require('dotenv').config();
+const server = require('./src/server.js');
+const PORT = process.env.PORT || 3333;
 
 
 
-server.start(3000);
+server.start(PORT);
