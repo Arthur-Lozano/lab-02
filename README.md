@@ -9,8 +9,7 @@
 - [AWW](https://awwapp.com/?dis=%5B%5B%22close-menus%22%5D%5D#) (AWW board)
 - [front-end application](https://dashboard.heroku.com/apps/basic-express-server-lab2/deploy/github) (Heroku)
 - [Jest](https://jestjs.io/) (Jest)
-- [CI/https://github.com/Arthur-Lozano/lab-02/actions
- - [ci/cd](https://github.com/Arthur-Lozano/lab-02/actions) (GitHub Actions)
+- [ci/cd](https://github.com/Arthur-Lozano/lab-02/actions) (GitHub Actions)
 
 
 
@@ -36,4 +35,4 @@
 
 #### UML
 
-![UML Example](./assets/uml-1.png)
+![UML Example](./assets/lab2.png)
