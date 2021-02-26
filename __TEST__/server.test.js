@@ -1,8 +1,6 @@
 'use strict';
 
-// const { it, expect } = require('@jest/globals');
 const supertest = require('supertest');
-// const { describe } = require('yargs');
 const server = require('../src/server.js');
 const request = supertest(server.app);
 

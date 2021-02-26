@@ -19,7 +19,6 @@ const logger = require('./middleware/logger.js');
 
 //Our Own Global Middlewear
 app.use(logger);
-// app.use(myValidator);
 
 //Route-Possible middleware in the route to help with code review questions
 app.get('/person', validator, (req, res) => {
@@ -40,7 +39,7 @@ app.use(errorHandler);
 
 module.exports = {
   // name: "name provided",
-  server: app,
+  app: app,
   start: port => {
     if (!port) {throw new Error ('Missing Port');}
     app.listen(port, () => console.log(`Listening on ${port}`));
