@@ -10,6 +10,7 @@
 - [front-end application](https://dashboard.heroku.com/apps/basic-express-server-lab2/deploy/github) (Heroku)
 - [Jest](https://jestjs.io/) (Jest)
 - [ci/cd](https://github.com/Arthur-Lozano/lab-02/actions) (GitHub Actions)
+- [Pull Request] (https://github.com/Arthur-Lozano/lab-02/pull/3) (GitHub Actions)
 
 
 
